@@ -1,0 +1,73 @@
+{
+  "exam_year": 2027,
+  "class": 10,
+  "policy": "Store metadata and legitimate source links. Do not commit commercial textbook PDFs or copyrighted CISCE papers unless reuse rights are confirmed.",
+  "subjects": {
+    "english-language": {
+      "authoritative_syllabus": "https://cisce.org/wp-content/uploads/2025/02/2.-English.pdf",
+      "official_book_guidance": "CISCE states that no specific book is recommended for English Paper 1 background reading.",
+      "high_value_exam_resource": "https://cisce.org/wp-content/uploads/2025/11/1.-ICSE-English-Language.pdf",
+      "school_adopted_resources": []
+    },
+    "english-literature": {
+      "authoritative_syllabus": "https://cisce.org/wp-content/uploads/2025/02/2.-English.pdf",
+      "prescribed_source": "https://cisce.org/wp-content/uploads/2026/04/34.-Appendix-I-List-of-Prescribed-Books.pdf",
+      "prescribed": [
+        "Julius Caesar — William Shakespeare, Acts III-IV-V",
+        "Treasure Chest — ICSE collection of short stories and poems"
+      ],
+      "class10_prose": ["With the Photographer", "The Elevator", "The Girl Who Can", "The Pedestrian", "The Last Lesson"],
+      "class10_poetry": ["Haunted Houses", "The Glove and the Lions", "When Great Trees Fall", "A Considerable Speck", "The Power of Music"],
+      "high_value_exam_resource": "https://cisce.org/wp-content/uploads/2025/11/2.-ICSE-Literature-in-English.pdf"
+    },
+    "kannada": {
+      "authoritative_syllabus": "https://cisce.org/wp-content/uploads/2025/02/3.-Second-Languages.pdf",
+      "prescribed_source": "https://cisce.org/wp-content/uploads/2026/04/34.-Appendix-I-List-of-Prescribed-Books.pdf",
+      "prescribed": [
+        "Sahitya Sangama — ICSE collection of Kannada short stories and poems",
+        "Natya Mayuri — Shri Sa. Shi. Marulayya, Chapters 6-10",
+        "Hoovi — H.S. Venkatesh Murthy, Scenes 8-14"
+      ],
+      "note": "CISCE requires only two of the offered prescribed books; store the school's selected two in deployment configuration."
+    },
+    "history-civics": {
+      "authoritative_syllabus": "https://cisce.org/wp-content/uploads/2025/03/ICSE-History-Civics.pdf",
+      "high_value_exam_resource": "https://cisce.org/wp-content/uploads/2025/11/5.-ICSE-History-Civics.pdf",
+      "specimen_resource": "https://cisce.org/wp-content/uploads/2025/07/ICSE-2026-SPECIMEN-501-HCG1.pdf",
+      "school_adopted_resources": []
+    },
+    "geography": {
+      "authoritative_syllabus": "https://cisce.org/wp-content/uploads/2025/03/ICSE-Geography.pdf",
+      "specimen_resource": "https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-502-HCG2.pdf",
+      "school_adopted_resources": []
+    },
+    "mathematics": {
+      "authoritative_syllabus": "https://cisce.org/wp-content/uploads/2025/02/9.-Mathematics.pdf",
+      "high_value_exam_resource": "https://cisce.org/wp-content/uploads/2025/11/3.-ICSE-Mathematics.pdf",
+      "specimen_resource": "https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-511-MAT.pdf",
+      "school_adopted_resources": []
+    },
+    "physics": {
+      "authoritative_syllabus": "https://cisce.org/wp-content/uploads/2025/03/10.-Physics.pdf",
+      "high_value_exam_resource": "https://cisce.org/wp-content/uploads/2025/11/8.-ICSE-Physics.pdf",
+      "specimen_resource": "https://cisce.org/wp-content/uploads/2025/07/ICSE-2026-SPECIMEN-521-SCI1.pdf",
+      "school_adopted_resources": []
+    },
+    "chemistry": {
+      "authoritative_syllabus": "https://cisce.org/wp-content/uploads/2025/03/11.-Chemistry.pdf",
+      "high_value_exam_resource": "https://cisce.org/wp-content/uploads/2025/11/9.-ICSE-Chemistry.pdf",
+      "specimen_resource": "https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-522-SCI2.pdf",
+      "school_adopted_resources": []
+    },
+    "biology": {
+      "authoritative_syllabus": "https://cisce.org/wp-content/uploads/2025/02/12.-Biology.pdf",
+      "high_value_exam_resource": "https://cisce.org/wp-content/uploads/2025/11/10.-ICSE-Biology.pdf",
+      "specimen_resource": "https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-523-SCI3.pdf",
+      "school_adopted_resources": []
+    },
+    "physical-education": {
+      "authoritative_syllabus": "https://cisce.org/wp-content/uploads/2025/02/26.-Physical-Education.pdf",
+      "school_adopted_resources": []
+    }
+  }
+}
