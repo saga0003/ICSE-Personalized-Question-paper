@@ -1,0 +1,186 @@
+{
+  "version": "1.0.0",
+  "exam_year": 2027,
+  "class": 10,
+  "status": "chapter-level verified seed; expand to subtopic/learning-outcome level during ingestion",
+  "subjects": {
+    "english-language": {
+      "name": "English Language (English Paper 1)",
+      "duration_minutes": 120,
+      "external_marks": 80,
+      "internal_marks": 20,
+      "board_structure": ["Composition (about 300-350 words)","Letter writing","Notice + Email based on a situation","Unseen prose comprehension + vocabulary + summary","Functional grammar: prepositions, conjunctions, verbs and sentence structure"],
+      "units": ["Composition","Letter","Notice and Email","Comprehension and Summary","Functional Grammar"]
+    },
+    "english-literature": {
+      "name": "Literature in English (English Paper 2)",
+      "duration_minutes": 120,
+      "external_marks": 80,
+      "internal_marks": 20,
+      "board_structure": ["Section A compulsory","Attempt one question each from Sections B, C and D","Attempt one additional question from any of B/C/D"],
+      "units": [
+        "Julius Caesar - Acts III, IV and V",
+        "With the Photographer - Stephen Leacock",
+        "The Elevator - William Sleator",
+        "The Girl Who Can - Ama Ata Aidoo",
+        "The Pedestrian - Ray Bradbury",
+        "The Last Lesson - Alphonse Daudet",
+        "Haunted Houses - H.W. Longfellow",
+        "The Glove and the Lions - Leigh Hunt",
+        "When Great Trees Fall - Maya Angelou",
+        "A Considerable Speck - Robert Frost",
+        "The Power of Music - Sukumar Ray"
+      ]
+    },
+    "kannada": {
+      "name": "Kannada - Second Language",
+      "duration_minutes": 180,
+      "external_marks": 80,
+      "internal_marks": 20,
+      "board_structure": ["Section A Language - 40 marks","Section B Prescribed Texts - 40 marks","Section A covers composition, letter, comprehension and grammar","Section B questions are answered from only two prescribed textbooks"],
+      "units": [
+        "Language: Composition",
+        "Language: Letter",
+        "Language: Comprehension",
+        "Language: Grammar / vocabulary / syntax / idiom",
+        "Short Story: Stainless Steel Patregalu - Vasudhendra",
+        "Short Story: Kalavida - T.A. Ra. Subba Rao",
+        "Short Story: Tollu Gatti - T.P. Kailasam",
+        "Short Story: Kathegaara Manjanna - Kuvempu",
+        "Short Story: Sevaashramada Linganna - Belagere Krishna Shastri",
+        "Poem: Aaru Hitavaru Ninage - Purandara Dasaru",
+        "Poem: Vashistha Vishwamitra Vivada - Raghavaanka",
+        "Poem: Keladi Arasara Kathe - Lavani",
+        "Poem: Mankuthimmana Kagga - D.V. Gundappa",
+        "Poem: Mithile - S.R. Yekkundi",
+        "Novel: Natya Mayuri - Chapters 6 to 10",
+        "Drama: Hoovi - Scenes 8 to 14"
+      ]
+    },
+    "history-civics": {
+      "name": "History & Civics (H.C.G. Paper 1)",
+      "duration_minutes": 120,
+      "external_marks": 80,
+      "internal_marks": 20,
+      "units": [
+        "Civics: The Union Legislature",
+        "Civics: The Union Executive",
+        "Civics: The Judiciary",
+        "History: The Indian National Movement (1857-1917)",
+        "History: Mass Phase of the National Movement",
+        "History: The Contemporary World - major international developments",
+        "History: United Nations and related international cooperation"
+      ]
+    },
+    "geography": {
+      "name": "Geography (H.C.G. Paper 2)",
+      "duration_minutes": 120,
+      "external_marks": 80,
+      "internal_marks": 20,
+      "units": [
+        "Map Work: Interpretation of Topographical Maps",
+        "Map Work: Map of India",
+        "Geography of India: Location, extent and physical features",
+        "Climate",
+        "Soil Resources",
+        "Natural Vegetation",
+        "Water Resources",
+        "Mineral and Energy Resources",
+        "Agriculture",
+        "Manufacturing Industries",
+        "Transport",
+        "Waste Management"
+      ]
+    },
+    "physics": {
+      "name": "Physics (Science Paper 1)",
+      "duration_minutes": 120,
+      "external_marks": 80,
+      "internal_marks": 20,
+      "units": [
+        "Force, Work, Power and Energy",
+        "Light",
+        "Sound",
+        "Electricity and Magnetism",
+        "Heat",
+        "Modern Physics / Radioactivity"
+      ]
+    },
+    "chemistry": {
+      "name": "Chemistry (Science Paper 2)",
+      "duration_minutes": 120,
+      "external_marks": 80,
+      "internal_marks": 20,
+      "units": [
+        "Periodic Properties and Variations of Properties",
+        "Chemical Bonding",
+        "Acids, Bases and Salts",
+        "Analytical Chemistry",
+        "Mole Concept and Stoichiometry",
+        "Electrolysis",
+        "Metallurgy",
+        "Study of Compounds: Hydrogen Chloride",
+        "Study of Compounds: Ammonia",
+        "Study of Compounds: Nitric Acid",
+        "Study of Compounds: Sulphuric Acid",
+        "Organic Chemistry"
+      ]
+    },
+    "biology": {
+      "name": "Biology (Science Paper 3)",
+      "duration_minutes": 120,
+      "external_marks": 80,
+      "internal_marks": 20,
+      "units": [
+        "Basic Biology: Cell Cycle, Cell Division, Chromosome and Genetics",
+        "Plant Physiology",
+        "Human Anatomy and Physiology",
+        "Population",
+        "Human Evolution",
+        "Pollution"
+      ]
+    },
+    "mathematics": {
+      "name": "Mathematics",
+      "duration_minutes": 180,
+      "external_marks": 80,
+      "internal_marks": 20,
+      "units": [
+        "Commercial Mathematics: GST",
+        "Commercial Mathematics: Banking",
+        "Commercial Mathematics: Shares and Dividends",
+        "Algebra: Linear Inequations",
+        "Algebra: Quadratic Equations",
+        "Algebra: Ratio and Proportion",
+        "Algebra: Factor and Remainder Theorems",
+        "Algebra: Matrices",
+        "Arithmetic / Geometric Progression topics prescribed for Class X",
+        "Coordinate Geometry",
+        "Geometry: Similarity",
+        "Geometry: Loci",
+        "Geometry: Circles",
+        "Geometry: Constructions",
+        "Mensuration",
+        "Trigonometry",
+        "Statistics",
+        "Probability"
+      ]
+    },
+    "physical-education": {
+      "name": "Physical Education",
+      "duration_minutes": 120,
+      "external_marks": 100,
+      "internal_marks": 100,
+      "units": [
+        "Human Growth and Development",
+        "Physical Education - meaning and objectives",
+        "Body Types",
+        "Physical Fitness",
+        "Sports Training",
+        "Safety in Sports",
+        "Health Education",
+        "Games and Sports - rules, skills and application for the games offered by the school"
+      ]
+    }
+  }
+}

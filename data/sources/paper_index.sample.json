@@ -1,0 +1,20 @@
+[
+  {
+    "id": "template-cisce-question-index-record",
+    "subject": "physics",
+    "year": 2026,
+    "paper_kind": "specimen",
+    "paper_code": "521-SCI1",
+    "question_number": "<fill-after-review>",
+    "marks": 0,
+    "chapter": "<chapter>",
+    "topic": "<topic>",
+    "competency": "<application|analysis|interpretation|evaluation|other>",
+    "difficulty": "<foundation|standard|application|stretch>",
+    "answer_type": "<type>",
+    "diagram_or_map_required": false,
+    "prompt_summary": "Write a concise independent summary of the skill tested; do not paste the full copyrighted question here.",
+    "source_url": "https://cisce.org/wp-content/uploads/2025/07/ICSE-2026-SPECIMEN-521-SCI1.pdf",
+    "review_status": "template"
+  }
+]

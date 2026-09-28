@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/question.schema.json",
+  "title": "ICSE Question",
+  "type": "object",
+  "required": ["id","subject","chapter","marks","difficulty","competency","origin"],
+  "properties": {
+    "id": {"type":"string"},
+    "subject": {"type":"string"},
+    "chapter": {"type":"string"},
+    "topic": {"type":"string"},
+    "subtopic": {"type":"string"},
+    "marks": {"type":"number","exclusiveMinimum":0},
+    "difficulty": {"enum":["foundation","standard","application","stretch"]},
+    "competency": {"enum":["recall","understanding","application","analysis","interpretation","evaluation","creation"]},
+    "answer_type": {"enum":["mcq","very-short","short","structured","long","numerical","diagram","map","composition","letter","notice-email","comprehension","grammar","extract-based","practical-reasoning"]},
+    "estimated_minutes": {"type":"number","minimum":0},
+    "prompt": {"type":"string","description":"Full prompt only for teacher-authored/licensed/public-domain content."},
+    "prompt_summary": {"type":"string","description":"Original short paraphrase for copyrighted source questions."},
+    "answer_key": {"type":"string"},
+    "rubric": {"type":"array","items":{"type":"string"}},
+    "requires": {"type":"array","items":{"type":"string"}},
+    "common_errors": {"type":"array","items":{"type":"string"}},
+    "origin": {
+      "type":"object",
+      "required":["kind"],
+      "properties": {
+        "kind": {"enum":["teacher-authored","school-owned","licensed","public-domain","cisce-metadata"]},
+        "year": {"type":"integer"},
+        "paper_code": {"type":"string"},
+        "question_number": {"type":"string"},
+        "source_url": {"type":"string"},
+        "source_page": {"type":"integer"},
+        "verbatim_allowed": {"type":"boolean","default":false}
+      }
+    },
+    "calibration": {
+      "type":"object",
+      "properties": {
+        "attempts": {"type":"integer","minimum":0},
+        "facility": {"type":"number","minimum":0,"maximum":1},
+        "discrimination": {"type":"number"},
+        "avg_time_seconds": {"type":"number","minimum":0}
+      }
+    },
+    "tags": {"type":"array","items":{"type":"string"}}
+  }
+}

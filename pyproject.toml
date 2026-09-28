@@ -1,0 +1,9 @@
+[project]
+name = "icse-personalized-paper-engine"
+version = "0.1.0"
+description = "Personalized ICSE Class X question-paper generation and progress tracking engine"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

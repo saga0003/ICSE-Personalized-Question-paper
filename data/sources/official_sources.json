@@ -1,0 +1,34 @@
+{
+  "version": "2026-09-28",
+  "exam_target": "ICSE Class X Year 2027",
+  "publisher": "Council for the Indian School Certificate Examinations (CISCE)",
+  "official_sources": [
+    {"id":"cisce-2027-regulations","type":"regulations","title":"ICSE Regulations and Syllabuses 2027","url":"https://cisce.org/icse-regulations-and-syllabuses-2027/","status":"official"},
+    {"id":"cisce-2027-english","type":"syllabus","subjects":["english-language","english-literature"],"url":"https://cisce.org/wp-content/uploads/2025/02/2.-English.pdf","status":"official"},
+    {"id":"cisce-2027-second-languages","type":"syllabus","subjects":["kannada"],"url":"https://cisce.org/wp-content/uploads/2025/02/3.-Second-Languages.pdf","status":"official"},
+    {"id":"cisce-2027-history-civics","type":"syllabus","subjects":["history-civics"],"url":"https://cisce.org/wp-content/uploads/2025/03/ICSE-History-Civics.pdf","status":"official"},
+    {"id":"cisce-2027-geography","type":"syllabus","subjects":["geography"],"url":"https://cisce.org/wp-content/uploads/2025/03/ICSE-Geography.pdf","status":"official"},
+    {"id":"cisce-2027-mathematics","type":"syllabus","subjects":["mathematics"],"url":"https://cisce.org/wp-content/uploads/2025/02/9.-Mathematics.pdf","status":"official"},
+    {"id":"cisce-2027-physics","type":"syllabus","subjects":["physics"],"url":"https://cisce.org/wp-content/uploads/2025/03/10.-Physics.pdf","status":"official"},
+    {"id":"cisce-2027-chemistry","type":"syllabus","subjects":["chemistry"],"url":"https://cisce.org/wp-content/uploads/2025/03/11.-Chemistry.pdf","status":"official"},
+    {"id":"cisce-2027-biology","type":"syllabus","subjects":["biology"],"url":"https://cisce.org/wp-content/uploads/2025/02/12.-Biology.pdf","status":"official"},
+    {"id":"cisce-2027-physical-education","type":"syllabus","subjects":["physical-education"],"url":"https://cisce.org/wp-content/uploads/2025/02/26.-Physical-Education.pdf","status":"official"},
+    {"id":"cisce-2027-prescribed-books","type":"prescribed-books","subjects":["english-literature","kannada"],"url":"https://cisce.org/wp-content/uploads/2026/04/34.-Appendix-I-List-of-Prescribed-Books.pdf","status":"official"},
+    {"id":"cisce-2026-specimen-release","type":"circular","title":"Release of specimen papers and Year 2025 Main/Improvement question papers","url":"https://cisce.org/wp-content/uploads/2025/09/Circular-Release-of-Speimen-Question-papers-and-Question-Papers-of-the-Year-2025-Main-and-Improvement-Examinations.pdf","status":"official","notes":"States approximately 40% competency weightage (Application/Analysis/Interpretation/Evaluation) for Year 2026 and identifies subjects with 2026 specimen papers."},
+    {"id":"cisce-2026-specimen-history-civics","type":"specimen-paper","subjects":["history-civics"],"year":2026,"url":"https://cisce.org/wp-content/uploads/2025/07/ICSE-2026-SPECIMEN-501-HCG1.pdf","status":"official"},
+    {"id":"cisce-2026-specimen-geography","type":"specimen-or-marking-scheme","subjects":["geography"],"year":2026,"url":"https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-502-HCG2.pdf","status":"official"},
+    {"id":"cisce-2026-specimen-physics","type":"specimen-or-marking-scheme","subjects":["physics"],"year":2026,"url":"https://cisce.org/wp-content/uploads/2025/07/ICSE-2026-SPECIMEN-521-SCI1.pdf","status":"official"}
+  ],
+  "paper_index_policy": {
+    "store_full_official_paper_text": false,
+    "store_commercial_textbook_files": false,
+    "store": ["source_url","year","paper_code","question_number","marks","chapter","topic","competency","difficulty","answer_type","diagram_or_map_required","short_paraphrased_summary","teacher_notes"],
+    "teacher_authored_questions_may_store_full_text": true
+  },
+  "ingestion_backlog": [
+    "Index all official 2025 Main and Improvement papers by subject/question metadata.",
+    "Index 2026 specimen papers and marking schemes for all supported subjects.",
+    "Add 2024 and earlier papers where legitimately available, using metadata/paraphrase rather than redistribution.",
+    "Add school-owned/internal papers only when the school has rights to store them."
+  ]
+}

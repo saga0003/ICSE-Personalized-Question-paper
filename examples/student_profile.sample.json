@@ -1,0 +1,34 @@
+{
+  "student_id": "demo-physics-01",
+  "student_name": "Demo Student",
+  "class": 10,
+  "subject": "physics",
+  "overall_score": 67,
+  "recent_scores": [58, 62, 67],
+  "chapter_mastery": {
+    "Force, Work, Power and Energy": 64,
+    "Light": 78,
+    "Sound": 70,
+    "Electricity and Magnetism": 48,
+    "Heat": 56,
+    "Modern Physics / Radioactivity": 72
+  },
+  "topic_mastery": {
+    "Resistance": 44,
+    "Electrical power": 52,
+    "Calorimetry": 50,
+    "Refraction": 80
+  },
+  "error_profile": {
+    "concept": 5,
+    "recall": 2,
+    "application": 7,
+    "careless": 3,
+    "language_presentation": 1,
+    "time_management": 2
+  },
+  "missed_question_ids": ["phy-electricity-002", "phy-heat-001"],
+  "recent_question_ids": ["phy-light-001"],
+  "accommodations": [],
+  "notes": "Demo profile: application-heavy errors and weaker Electricity/Heat mastery."
+}

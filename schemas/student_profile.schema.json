@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/student_profile.schema.json",
+  "title": "Student Performance Profile",
+  "type": "object",
+  "required": ["student_id","subject","overall_score","chapter_mastery"],
+  "properties": {
+    "student_id": {"type":"string"},
+    "student_name": {"type":"string"},
+    "class": {"type":"integer","const":10},
+    "subject": {"type":"string"},
+    "overall_score": {"type":"number","minimum":0,"maximum":100},
+    "recent_scores": {"type":"array","items":{"type":"number","minimum":0,"maximum":100}},
+    "chapter_mastery": {
+      "type":"object",
+      "additionalProperties": {"type":"number","minimum":0,"maximum":100}
+    },
+    "topic_mastery": {
+      "type":"object",
+      "additionalProperties": {"type":"number","minimum":0,"maximum":100}
+    },
+    "error_profile": {
+      "type":"object",
+      "properties": {
+        "concept": {"type":"number","minimum":0},
+        "recall": {"type":"number","minimum":0},
+        "application": {"type":"number","minimum":0},
+        "careless": {"type":"number","minimum":0},
+        "language_presentation": {"type":"number","minimum":0},
+        "time_management": {"type":"number","minimum":0}
+      }
+    },
+    "missed_question_ids": {"type":"array","items":{"type":"string"}},
+    "recent_question_ids": {"type":"array","items":{"type":"string"}},
+    "accommodations": {"type":"array","items":{"type":"string"}},
+    "notes": {"type":"string"}
+  }
+}
