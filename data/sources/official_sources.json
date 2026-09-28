@@ -13,22 +13,32 @@
     {"id":"cisce-2027-chemistry","type":"syllabus","subjects":["chemistry"],"url":"https://cisce.org/wp-content/uploads/2025/03/11.-Chemistry.pdf","status":"official"},
     {"id":"cisce-2027-biology","type":"syllabus","subjects":["biology"],"url":"https://cisce.org/wp-content/uploads/2025/02/12.-Biology.pdf","status":"official"},
     {"id":"cisce-2027-physical-education","type":"syllabus","subjects":["physical-education"],"url":"https://cisce.org/wp-content/uploads/2025/02/26.-Physical-Education.pdf","status":"official"},
-    {"id":"cisce-2027-prescribed-books","type":"prescribed-books","subjects":["english-literature","kannada"],"url":"https://cisce.org/wp-content/uploads/2026/04/34.-Appendix-I-List-of-Prescribed-Books.pdf","status":"official"},
+    {"id":"cisce-2027-prescribed-books","type":"prescribed-books","subjects":["english-literature","kannada"],"url":"https://cisce.org/wp-content/uploads/2025/02/34.-Appendix-I-List-of-Prescribed-Books.pdf","status":"official"},
+
     {"id":"cisce-2026-specimen-release","type":"circular","title":"Release of specimen papers and Year 2025 Main/Improvement question papers","url":"https://cisce.org/wp-content/uploads/2025/09/Circular-Release-of-Speimen-Question-papers-and-Question-Papers-of-the-Year-2025-Main-and-Improvement-Examinations.pdf","status":"official","notes":"States approximately 40% competency weightage (Application/Analysis/Interpretation/Evaluation) for Year 2026 and identifies subjects with 2026 specimen papers."},
     {"id":"cisce-2026-specimen-history-civics","type":"specimen-paper","subjects":["history-civics"],"year":2026,"url":"https://cisce.org/wp-content/uploads/2025/07/ICSE-2026-SPECIMEN-501-HCG1.pdf","status":"official"},
     {"id":"cisce-2026-specimen-geography","type":"specimen-or-marking-scheme","subjects":["geography"],"year":2026,"url":"https://cisce.org/wp-content/uploads/2025/11/ICSE-2026-SPECIMEN-502-HCG2.pdf","status":"official"},
-    {"id":"cisce-2026-specimen-physics","type":"specimen-or-marking-scheme","subjects":["physics"],"year":2026,"url":"https://cisce.org/wp-content/uploads/2025/07/ICSE-2026-SPECIMEN-521-SCI1.pdf","status":"official"}
+    {"id":"cisce-2026-specimen-physics","type":"specimen-or-marking-scheme","subjects":["physics"],"year":2026,"url":"https://cisce.org/wp-content/uploads/2025/07/ICSE-2026-SPECIMEN-521-SCI1.pdf","status":"official"},
+
+    {"id":"cisce-2025-analysis-english-language","type":"analysis-of-pupil-performance","subjects":["english-language"],"year":2025,"url":"https://cisce.org/wp-content/uploads/2025/11/1.-ICSE-English-Language.pdf","status":"official","priority":"very-high","notes":"Contains board questions, marking scheme, examiner observations, common errors and pedagogical suggestions."},
+    {"id":"cisce-2025-analysis-english-literature","type":"analysis-of-pupil-performance","subjects":["english-literature"],"year":2025,"url":"https://cisce.org/wp-content/uploads/2025/11/2.-ICSE-Literature-in-English.pdf","status":"official","priority":"very-high","notes":"Contains board questions, marking scheme, examiner observations, common errors and pedagogical suggestions."},
+    {"id":"cisce-2025-analysis-mathematics","type":"analysis-of-pupil-performance","subjects":["mathematics"],"year":2025,"url":"https://cisce.org/wp-content/uploads/2025/11/3.-ICSE-Mathematics.pdf","status":"official","priority":"very-high","notes":"Use error patterns to seed misconceptions and targeted remediation tags."},
+    {"id":"cisce-2025-analysis-history-civics","type":"analysis-of-pupil-performance","subjects":["history-civics"],"year":2025,"url":"https://cisce.org/wp-content/uploads/2025/11/5.-ICSE-History-Civics.pdf","status":"official","priority":"very-high","notes":"Use examiner comments and frequent errors for competency/error tagging."},
+    {"id":"cisce-2025-analysis-physics","type":"analysis-of-pupil-performance","subjects":["physics"],"year":2025,"url":"https://cisce.org/wp-content/uploads/2025/11/8.-ICSE-Physics.pdf","status":"official","priority":"very-high","notes":"Use actual performance patterns, errors and remedies for adaptive selection."},
+    {"id":"cisce-2025-analysis-chemistry","type":"analysis-of-pupil-performance","subjects":["chemistry"],"year":2025,"url":"https://cisce.org/wp-content/uploads/2025/11/9.-ICSE-Chemistry.pdf","status":"official","priority":"very-high","notes":"Use actual performance patterns, errors and remedies for adaptive selection."},
+    {"id":"cisce-2025-analysis-biology","type":"analysis-of-pupil-performance","subjects":["biology"],"year":2025,"url":"https://cisce.org/wp-content/uploads/2025/11/10.-ICSE-Biology.pdf","status":"official","priority":"very-high","notes":"Use actual performance patterns, errors and remedies for adaptive selection."}
   ],
   "paper_index_policy": {
     "store_full_official_paper_text": false,
     "store_commercial_textbook_files": false,
-    "store": ["source_url","year","paper_code","question_number","marks","chapter","topic","competency","difficulty","answer_type","diagram_or_map_required","short_paraphrased_summary","teacher_notes"],
+    "store": ["source_url","year","paper_code","question_number","marks","chapter","topic","competency","difficulty","answer_type","diagram_or_map_required","short_paraphrased_summary","teacher_notes","common_error_tags","examiner_remedy_tags"],
     "teacher_authored_questions_may_store_full_text": true
   },
-  "ingestion_backlog": [
-    "Index all official 2025 Main and Improvement papers by subject/question metadata.",
-    "Index 2026 specimen papers and marking schemes for all supported subjects.",
-    "Add 2024 and earlier papers where legitimately available, using metadata/paraphrase rather than redistribution.",
-    "Add school-owned/internal papers only when the school has rights to store them."
+  "ingestion_priority": [
+    "2025 CISCE Analysis of Pupil Performance reports: highest value because they combine real questions, marking schemes, common errors and suggested remedies.",
+    "2026 specimen papers and marking schemes: use to validate format, choices and competency mix.",
+    "2025 Main and Improvement question-paper metadata for all supported subjects.",
+    "2024 and earlier official papers/analysis reports where legitimately available.",
+    "School-owned/internal papers where the school has rights to store and reuse the content."
   ]
 }
