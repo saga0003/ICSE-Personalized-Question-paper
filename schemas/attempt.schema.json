@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/attempt.schema.json",
+  "title": "Student Paper Attempt",
+  "type": "object",
+  "required": ["student_id", "subject", "paper_id", "responses"],
+  "properties": {
+    "student_id": {"type":"string"},
+    "subject": {"type":"string"},
+    "paper_id": {"type":"string"},
+    "attempted_at": {"type":"string"},
+    "minutes_used": {"type":"number","minimum":0},
+    "responses": {
+      "type":"array",
+      "items": {
+        "type":"object",
+        "required":["question_id","marks_awarded","max_marks"],
+        "properties": {
+          "question_id":{"type":"string"},
+          "marks_awarded":{"type":"number","minimum":0},
+          "max_marks":{"type":"number","exclusiveMinimum":0},
+          "error_tags":{"type":"array","items":{"enum":["concept","recall","application","careless","language_presentation","time_management","incomplete_working","misread_question"]}},
+          "teacher_note":{"type":"string"},
+          "seconds_used":{"type":"number","minimum":0}
+        }
+      }
+    }
+  }
+}
